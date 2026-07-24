@@ -71,7 +71,7 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
   // 4. ScrollSpy for Active Nav Links
-  const sections = document.querySelectorAll('section[id], main[id]');
+  const sections = document.querySelectorAll('section[id]');
   const navLinks = document.querySelectorAll('.nav-links a');
 
   window.addEventListener('scroll', () => {

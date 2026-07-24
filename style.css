@@ -175,8 +175,15 @@ header {
 
 /* Main Content Spacing */
 main {
-  margin-top: 96px;
+  padding-top: 150px;
   padding-bottom: 4rem;
+}
+
+main,
+section,
+.hero-section,
+.section-block {
+  scroll-margin-top: 90px;
 }
 
 /* Hero & Profile Section */
@@ -185,6 +192,7 @@ main {
   grid-template-columns: 240px 1fr;
   gap: 2.5rem;
   align-items: start;
+  margin-top: 5rem;
   margin-bottom: 3.5rem;
   padding: 2rem;
   background: var(--card-bg);
@@ -622,8 +630,15 @@ main {
 }
 
 @keyframes fadeIn {
-  from { opacity: 0; transform: translateY(-4px); }
-  to { opacity: 1; transform: translateY(0); }
+  from {
+    opacity: 0;
+    transform: translateY(-4px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 /* News Section Timeline */
@@ -722,7 +737,8 @@ footer {
 
 @media (max-width: 600px) {
   .nav-links {
-    display: none; /* Can be expanded to mobile dropdown if needed */
+    display: none;
+    /* Can be expanded to mobile dropdown if needed */
   }
 
   .name-heading {
