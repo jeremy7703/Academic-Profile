@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://jeremy7703.github.io/Academic-Profile/sitemap.xml
