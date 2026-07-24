@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ruojing Song (宋若璟) - Academic Homepage</title>
+  <meta name="description" content="Personal academic homepage of Ruojing Song (宋若璟), working on Embodied AI." />
+
+  <!-- FontAwesome Icons & Google Fonts -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- Navigation Header -->
+  <header>
+    <div class="container navbar">
+      <a href="#home" class="nav-brand">RUOJING SONG</a>
+      <div class="nav-right">
+        <ul class="nav-links">
+          <li><a href="#about" class="active">About</a></li>
+          <li><a href="#research">Research</a></li>
+          <li><a href="#publications">Publications</a></li>
+          <li><a href="#news">News</a></li>
+        </ul>
+        <button id="themeToggle" class="theme-toggle-btn" aria-label="Toggle dark/light mode">
+          <i class="fa-solid fa-sun" id="themeIcon"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main class="container" id="home">
+
+    <!-- Profile & Hero Header Section -->
+    <section class="hero-section" id="about">
+      <div class="profile-avatar-container">
+        <img src="assets/images/profile.png" alt="Ruojing Song Portrait" class="profile-avatar" />
+      </div>
+      <div class="profile-info">
+        <h1 class="name-heading">Ruojing Song (宋若璟)</h1>
+        <div class="title-subheading">Student Researcher in Robotics</div>
+        <div class="affiliation-text">
+          <i class="fa-solid fa-building-columns"></i>
+          University of Florida
+        </div>
+
+        <div class="email-box">
+          <i class="fa-regular fa-envelope"></i>
+          <span>songr [at] ufl [dot] edu</span>
+        </div>
+
+        <!-- Social & Academic Profiles Links -->
+        <div class="social-links">
+          <a href="https://scholar.google.com/citations?user=5oHT-aUAAAAJ&hl=en" target="_blank" rel="noopener"
+            class="btn-social">
+            <i class="fa-solid fa-graduation-cap"></i> Google Scholar
+          </a>
+          <!-- <a href="https://github.com/jeremy7703" target="_blank" rel="noopener" class="btn-social">
+            <i class="fa-brands fa-github"></i> GitHub
+          </a> -->
+          <!-- <a href="https://x.com/" target="_blank" rel="noopener" class="btn-social">
+            <i class="fa-brands fa-x-twitter"></i> X / Twitter
+          </a> -->
+          <a href="https://www.linkedin.com/in/ruojing-song-716709237/" target="_blank" rel="noopener"
+            class="btn-social">
+            <i class="fa-brands fa-linkedin"></i> LinkedIn
+          </a>
+          <!-- <a href="https://xiaohongshu.com/" target="_blank" rel="noopener" class="btn-social">
+            <i class="fa-solid fa-book-bookmark"></i> RedNote (小红书)
+          </a>
+          <a href="#" target="_blank" rel="noopener" class="btn-social">
+            <i class="fa-solid fa-file-pdf"></i> Curriculum Vitae (CV)
+          </a> -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Highlight Announcement Callout Box -->
+    <div class="announcement-box">
+      <div class="announcement-title">
+        <i class="fa-solid fa-bullhorn"></i> Latest Updates
+      </div>
+      <p>
+        🚗 <strong>[Opening] </strong> I am looking for undergraduate and master's student from CISE, ECE, MAE, ISE
+        departments at University of Florida to collaborate with on my dexterous robotic manipulation project. Welcome
+        to reach out me at <span class="email-inline"><i class="fa-regular fa-envelope"></i> songr [at] ufl [dot]
+          edu</span>!
+      </p>
+    </div>
+
+    <!-- Biography / About Me -->
+    <section class="section-block">
+      <h2 class="section-title"><i class="fa-solid fa-user"></i> About Me</h2>
+      <p class="bio-paragraph">
+        Hello! I am <strong>Ruojing Song (宋若璟)</strong>, PhD Student at University of Florida. My research focuses on
+        <strong>Dexterous Manipulation and
+          self-evolving physical AI agent</strong>.
+      </p>
+      <p class="bio-paragraph">
+        Specifically, I am interested in systematicaly designing robot learning framework that helps robotic agent to
+        reliably slove complicated task in real world. I am also designing framework that helps robotic agent to
+        constantly evolving in the wild. I believe real wolrd performace is the only evaluation standard for robotic
+        research. Let's
+        work together to deploy reliable robot for manipulation!
+      </p>
+    </section>
+
+    <!-- Research Thrusts & Interests -->
+    <section class="section-block" id="research">
+      <h2 class="section-title"><i class="fa-solid fa-compass-drafting"></i> Research Thrusts</h2>
+      <p class="bio-paragraph">
+        My primary research interests span three key directions in autonomous systems:
+      </p>
+
+      <div class="thrust-grid">
+        <!-- Thrust 1 -->
+        <div class="thrust-card">
+          <h3 class="thrust-card-title">Dexterous Manipulation</h3>
+          <p class="thrust-card-desc">
+            Developing multimodal frameworks that can effectively learn from unstructured human-egocentric dexterous
+            manipulation data, including both highly precise and contact-rich manipulation.
+          </p>
+          <div class="thrust-keywords">
+            <span class="keyword-badge">VLA</span>
+            <span class="keyword-badge">World Model</span>
+            <span class="keyword-badge">High-precision Manipulation</span>
+          </div>
+        </div>
+
+        <!-- Thrust 2 -->
+        <div class="thrust-card">
+          <h3 class="thrust-card-title">Self-evolving Physical AI Agent</h3>
+          <p class="thrust-card-desc">
+            Building physical AI agent that can constantly improve itself during deployment via effective agentic data
+            pipeline, evaluation system, and contiual learning algorithm.
+          </p>
+          <div class="thrust-keywords">
+            <span class="keyword-badge">Reinforcement Learning</span>
+            <span class="keyword-badge">Continual Learning</span>
+            <span class="keyword-badge">Self-evoling AI Agent</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Publications Section -->
+    <section class="section-block" id="publications">
+      <h2 class="section-title"><i class="fa-solid fa-newspaper"></i> Publications</h2>
+
+      <!-- Category Filter Tabs -->
+      <div class="pub-filters">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="">Selected</button>
+      </div>
+
+      <div class="pub-list">
+
+        <!-- Paper 1: CAA-Policy -->
+        <div class="pub-item" data-category="parking">
+          <div class="pub-thumb-box">
+            <img src="assets/images/paper1.jpg" alt="CAA-Policy Teaser" class="pub-thumb" />
+          </div>
+          <div class="pub-content">
+            <a href="https://arxiv.org/abs/2509.11090" target="_blank" class="pub-title">
+              End-to-End Visual Autonomous Parking via Control-Aided Attention
+            </a>
+            <div class="pub-authors">
+              Chao Chen, Shunyu Yao, Yuanwu He, Feng Tao, <span class="me">Ruojing Song</span>, Yuliang Guo, Xinyu
+              Huang, Chenxu Wu, Liu Ren, Chen Feng
+            </div>
+            <div class="pub-venue">
+              <span class="badge-venue">arXiv 2025</span>
+              <span>arXiv preprint arXiv:2509.11090</span>
+            </div>
+            <div class="pub-links">
+              <a href="https://arxiv.org/pdf/2509.11090" target="_blank" class="pub-btn"><i
+                  class="fa-solid fa-file-pdf"></i> Paper (PDF)</a>
+              <a href="https://arxiv.org/abs/2509.11090" target="_blank" class="pub-btn"><i
+                  class="fa-solid fa-globe"></i> arXiv Page</a>
+              <a href="https://github.com/ai4ce/CAAPolicy" target="_blank" class="pub-btn"><i
+                  class="fa-brands fa-github"></i> Code</a>
+              <button class="pub-btn bibtex-toggle" data-target="bib1"><i class="fa-solid fa-quote-right"></i>
+                BibTeX</button>
+            </div>
+            <div class="bibtex-box" id="bib1">@article{chen2025end,
+              title={End-to-End Visual Autonomous Parking via Control-Aided Attention},
+              author={Chen, Chao and Yao, Shunyu and He, Yuanwu and Tao, Feng and Song, Ruojing and Guo, Yuliang and
+              Huang, Xinyu and Wu, Chenxu and Ren, Liu and Feng, Chen},
+              journal={arXiv preprint arXiv:2509.11090},
+              year={2025}
+              }</div>
+          </div>
+        </div>
+
+        <!-- Paper 2: SafeCoop -->
+        <div class="pub-item" data-category="v2x">
+          <div class="pub-thumb-box">
+            <img src="assets/images/paper2.jpg" alt="SafeCoop Teaser" class="pub-thumb" />
+          </div>
+          <div class="pub-content">
+            <a href="https://arxiv.org/abs/2510.18123" target="_blank" class="pub-title">
+              SafeCoop: Unravelling Full Stack Safety in Agentic Collaborative Driving
+            </a>
+            <div class="pub-authors">
+              Xiangbo Gao, Tzu-Hsiang Lin, <span class="me">Ruojing Song</span>, Yuheng Wu, Kuan-Ru Huang, Zicheng Jin,
+              Fangzhou Lin, Shinan Liu, Zhengzhong Tu
+            </div>
+            <div class="pub-venue">
+              <span class="badge-venue">arXiv 2025</span>
+              <span>arXiv preprint arXiv:2510.18123</span>
+            </div>
+            <div class="pub-links">
+              <a href="https://arxiv.org/pdf/2510.18123" target="_blank" class="pub-btn"><i
+                  class="fa-solid fa-file-pdf"></i> Paper (PDF)</a>
+              <a href="https://arxiv.org/abs/2510.18123" target="_blank" class="pub-btn"><i
+                  class="fa-solid fa-globe"></i> arXiv Page</a>
+              <a href="https://xiangbogaobarry.github.io/SafeCoop" target="_blank" class="pub-btn"><i
+                  class="fa-solid fa-laptop-code"></i> Project Page</a>
+              <button class="pub-btn bibtex-toggle" data-target="bib2"><i class="fa-solid fa-quote-right"></i>
+                BibTeX</button>
+            </div>
+            <div class="bibtex-box" id="bib2">@article{gao2025safecoop,
+              title={SafeCoop: Unravelling Full Stack Safety in Agentic Collaborative Driving},
+              author={Gao, Xiangbo and Lin, Tzu-Hsiang and Song, Ruojing and Wu, Yuheng and Huang, Kuan-Ru and Jin,
+              Zicheng and Lin, Fangzhou and Liu, Shinan and Tu, Zhengzhong},
+              journal={arXiv preprint arXiv:2510.18123},
+              year={2025}
+              }</div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- News & Updates Timeline -->
+    <section class="section-block" id="news">
+      <h2 class="section-title"><i class="fa-solid fa-bell"></i> News & Updates</h2>
+      <div class="news-list">
+        <div class="news-item">
+          <div class="news-date">2025.10</div>
+          <div class="news-content">
+            🚀 Our paper <strong>SafeCoop: Unravelling Full Stack Safety in Agentic Collaborative Driving</strong> is
+            released on arXiv! Check out the <a href="https://xiangbogaobarry.github.io/SafeCoop"
+              target="_blank">Project Page</a>.
+          </div>
+        </div>
+        <div class="news-item">
+          <div class="news-date">2025.09</div>
+          <div class="news-content">
+            🚘 Our paper <strong>End-to-End Visual Autonomous Parking via Control-Aided Attention</strong> is released
+            on arXiv! Code and datasets released at <a href="https://github.com/ai4ce/CAAPolicy"
+              target="_blank">GitHub</a>.
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container footer-content">
+      <div>
+        &copy; <span id="currentYear"></span> Ruojing Song (宋若璟). All rights reserved.
+      </div>
+      <div class="footer-stats">
+        <i class="fa-solid fa-chart-line"></i> Academic Homepage
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
